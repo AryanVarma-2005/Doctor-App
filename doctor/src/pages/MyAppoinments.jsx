@@ -1,11 +1,11 @@
 import React from 'react'
 
-const MyAppoinments = () => {
+const MyAppointments = () => {
   return (
     <div>
-      
+      My Appointments
     </div>
   )
 }
 
-export default MyAppoinments
+export default MyAppointments
