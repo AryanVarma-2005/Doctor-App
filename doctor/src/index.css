@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
-.active hr{
+.active hr {
     @apply block
+}
+
+::-webkit-scrollbar {
+    @apply hidden
+}
+
+.grid-cols-auto {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.25rem;
+}
+
+@media (min-width: 1024px) {
+    .grid-cols-auto {
+        grid-template-columns: repeat(5, 1fr);
+    }
 }

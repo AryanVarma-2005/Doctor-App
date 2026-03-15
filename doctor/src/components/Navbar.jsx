@@ -6,12 +6,11 @@ const Navbar = () => {
 
   const navigate = useNavigate();
 
-  const [showMenu, setShowMenu] = useState(false);
   const [token, setToken] = useState(true);
 
   return (
     <div className="flex items-center justify-between text-sm py-4 mb-5 border-b-gray-400">
-      <img className="w-44 cursor-pointer" src={assets.logo} alt-="" />
+      <img className="w-44 cursor-pointer" src={assets.logo} alt="" />
       <ul className="hidden md:flex items-start gap-5 font-medium">
         <NavLink to='/'>
           <li className="py-1">HOME</li>
